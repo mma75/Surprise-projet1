@@ -1,0 +1,115 @@
+/****************************** BODY *******************************/ 
+body{
+    margin: 0;
+    overflow: hidden;
+    color: #f4ef88;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px -90px;
+    font-family: 'Yeon Sung', cursive;
+    background-image: url('../04-imgs/page_accueil.jpg');
+}
+/***************************** FIN BODY *************************/ 
+    
+    /******************************* NAV *******************************/  
+    .img-lumiere{
+        top: 6.5%;
+        left: 25%;
+        z-index: 10;
+        opacity: 0.55;
+        width: 700px;
+        position: absolute;
+    }
+
+    nav{
+        margin: 0;
+        z-index: 30;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+        nav ul{
+            margin: 0;
+            display: flex;
+            list-style: none;
+            text-align: center;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+            nav li{
+                width: 150px;
+                margin-right: 60px;
+            }
+
+            nav .icone-home{
+            top: 1%;
+            width: 25px;
+            height: 30px;
+            right: 595px;
+            position: absolute;
+            border-radius: 7px;
+            }
+            nav .icone-serpent{
+            top: -1%;
+            height: 50px;
+            right: 380px;
+            position: absolute;
+            }
+            nav .icone-cv{
+            top: 0.8%;
+            width: 25px;
+            height: 30px;
+            right: 185px;
+            position: absolute;
+            border-radius: 7px;
+            }
+
+            nav a{
+                border: none; 
+                outline: none;
+                font-size: 1.5em;
+                color: #f4ef88;
+                text-decoration: none;
+            }
+    /************************* FIN NAV ****************************/ 
+
+    /************************ SECTION PRÉSENTATION *************************/
+    .presentation{
+        top: 120px;
+        opacity: 0.9;
+        text-align: center;
+        position: relative; 
+        left: 100% - (881 / 2);   
+    }
+        .presentation h1{
+            margin: 25px auto;
+            text-align: center;
+        }
+
+        .p1,.p3{
+            font-size: 1.4em;
+        }
+        .p2{
+            font-size: 1.6em; 
+        }
+        button{
+            margin: 15px;
+            width: 130px;
+            height: 30px;
+            font-weight: 600;
+            color: #09342d;
+            line-height: 30px;
+            border-radius: 5px;
+            border: solid 3px #3b9c82;
+            background-color: #f4ef88;
+            box-shadow: #09342d  2px 1px;        
+        }
+            button a{
+                border: none; 
+                outline: none;
+                color: #09342d;
+                text-decoration: none;
+            }
+
+    /************************ FIN PRÉSENTATION *************************/
